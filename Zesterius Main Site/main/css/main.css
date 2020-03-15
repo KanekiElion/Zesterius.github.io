@@ -1,0 +1,23 @@
+*{
+  margin: 0; padding: 0;
+}
+
+a, li, table{
+  text-decoration: none;
+  text-transform: none;
+}
+
+body{
+  text-align: left;
+  font-size: 16px;
+  color: white;
+}
+
+section{
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+
+  width: 100%;
+}
