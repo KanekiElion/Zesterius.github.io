@@ -1,0 +1,29 @@
+.cont{
+  background-color: rgba(255, 255, 255, 0.3);
+  border: black solid 1px;
+}
+
+.page_bar{
+  display: flex;
+  flex-wrap: wrap;
+  height: 20px;
+
+  border-bottom: black solid 1px;
+}
+
+.page{
+  text-align: center;
+  line-height: 20px;
+
+  width: 50px;
+}
+
+.active_page{
+  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%), rgba(0, 0, 0, 0.3);
+  outline: 1px solid black;
+}
+
+
+.content{
+  min-height: 450px;
+}

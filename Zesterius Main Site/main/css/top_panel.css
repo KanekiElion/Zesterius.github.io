@@ -1,0 +1,66 @@
+#header{
+  margin-bottom: 20px;
+}
+
+/*Top menu code*/
+
+.top_main{
+  background-color: rgba(229, 229, 229, 0.3);
+  border: black solid 1px;
+  margin-bottom: 10px;
+
+  height: 40px;
+}
+
+.top{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.logotipe{
+  height: 40px;
+  line-height: 40px;
+}
+
+.logo{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.open_menu_button{
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+/*Project code*/
+
+.top_project{
+  background-color: rgba(229, 229, 229, 0.3);
+  border: black solid 1px;
+
+  height: 30px;
+}
+
+.project_bar{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  height: 30px;
+}
+
+.project{
+  width: 25%;
+}
+
+.project>p{
+  text-align: center;
+  line-height: 30px;
+}
+
+.active_project{
+  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%), rgba(0, 0, 0, 0.3);
+  outline: 1px solid black;
+}
